@@ -5,6 +5,28 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{C14DECF5-769D-40F2-A2A0-2E1604493B4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exchange numbers", "Exchange numbers\Exchange numbers.csproj", "{15922948-0FC9-4A99-A1CE-660E110A615D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonus Score", "Bonus Score\Bonus Score.csproj", "{FE75DFEA-139D-4E74-9432-2E5DE8BA01CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play card", "Play card\Play card.csproj", "{C2B3FABE-61E9-45CA-B0CB-9288AB9C3FE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplication Sign", "Multiplication Sign\Multiplication Sign.csproj", "{705037B4-6ECE-4095-89E8-8C49103F05E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biggest of 3", "Biggest of 3\Biggest of 3.csproj", "{68DEFCEC-9395-474B-A5BA-FF081B8AA422}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biggest of 3 V2", "Biggest of 3 V2\Biggest of 3 V2.csproj", "{882CE057-FF87-4642-8AB8-832C0A07D2D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biggest of 5", "Biggest of 5\Biggest of 5.csproj", "{B5876752-0878-46BD-A047-B54E2ADD9AD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biggest Of 5 V2", "Biggest Of 5 V2\Biggest Of 5 V2.csproj", "{B290E83C-52D4-4F5B-87D2-B74F4444B05D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort 3 Numbers", "Sort 3 Numbers\Sort 3 Numbers.csproj", "{BABE149D-C8EB-4DE2-BFDB-AE2CF9E2782A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digit As Word", "Digit As Word\Digit As Word.csproj", "{91F7BCE2-0CB9-4FBA-8FDD-73C7909D128D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Int, Double, String", "Int, Double, String\Int, Double, String.csproj", "{E042BD36-DBCD-4AA2-8123-2A1E38E3873D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +37,50 @@ Global
 		{C14DECF5-769D-40F2-A2A0-2E1604493B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C14DECF5-769D-40F2-A2A0-2E1604493B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C14DECF5-769D-40F2-A2A0-2E1604493B4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15922948-0FC9-4A99-A1CE-660E110A615D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15922948-0FC9-4A99-A1CE-660E110A615D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15922948-0FC9-4A99-A1CE-660E110A615D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15922948-0FC9-4A99-A1CE-660E110A615D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE75DFEA-139D-4E74-9432-2E5DE8BA01CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE75DFEA-139D-4E74-9432-2E5DE8BA01CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE75DFEA-139D-4E74-9432-2E5DE8BA01CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE75DFEA-139D-4E74-9432-2E5DE8BA01CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B3FABE-61E9-45CA-B0CB-9288AB9C3FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B3FABE-61E9-45CA-B0CB-9288AB9C3FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B3FABE-61E9-45CA-B0CB-9288AB9C3FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B3FABE-61E9-45CA-B0CB-9288AB9C3FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{705037B4-6ECE-4095-89E8-8C49103F05E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705037B4-6ECE-4095-89E8-8C49103F05E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705037B4-6ECE-4095-89E8-8C49103F05E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705037B4-6ECE-4095-89E8-8C49103F05E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68DEFCEC-9395-474B-A5BA-FF081B8AA422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68DEFCEC-9395-474B-A5BA-FF081B8AA422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68DEFCEC-9395-474B-A5BA-FF081B8AA422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68DEFCEC-9395-474B-A5BA-FF081B8AA422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{882CE057-FF87-4642-8AB8-832C0A07D2D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{882CE057-FF87-4642-8AB8-832C0A07D2D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{882CE057-FF87-4642-8AB8-832C0A07D2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{882CE057-FF87-4642-8AB8-832C0A07D2D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5876752-0878-46BD-A047-B54E2ADD9AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5876752-0878-46BD-A047-B54E2ADD9AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5876752-0878-46BD-A047-B54E2ADD9AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5876752-0878-46BD-A047-B54E2ADD9AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B290E83C-52D4-4F5B-87D2-B74F4444B05D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B290E83C-52D4-4F5B-87D2-B74F4444B05D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B290E83C-52D4-4F5B-87D2-B74F4444B05D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B290E83C-52D4-4F5B-87D2-B74F4444B05D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BABE149D-C8EB-4DE2-BFDB-AE2CF9E2782A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABE149D-C8EB-4DE2-BFDB-AE2CF9E2782A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABE149D-C8EB-4DE2-BFDB-AE2CF9E2782A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABE149D-C8EB-4DE2-BFDB-AE2CF9E2782A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F7BCE2-0CB9-4FBA-8FDD-73C7909D128D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F7BCE2-0CB9-4FBA-8FDD-73C7909D128D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F7BCE2-0CB9-4FBA-8FDD-73C7909D128D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F7BCE2-0CB9-4FBA-8FDD-73C7909D128D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E042BD36-DBCD-4AA2-8123-2A1E38E3873D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E042BD36-DBCD-4AA2-8123-2A1E38E3873D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E042BD36-DBCD-4AA2-8123-2A1E38E3873D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E042BD36-DBCD-4AA2-8123-2A1E38E3873D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

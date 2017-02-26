@@ -12,6 +12,7 @@ class Demo
         {
             biggerNumber = secondNumber;
         }
+
         Console.WriteLine(biggerNumber);
     }
 }
