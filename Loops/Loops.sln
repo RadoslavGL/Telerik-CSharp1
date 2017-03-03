@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trailing 0 in N!", "Trailin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trailing 0 in N! V2", "Trailing 0 in N! V2\Trailing 0 in N! V2.csproj", "{1120E787-7F95-47AE-BA51-C260E74E8CDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spiral Matrix", "Spiral Matrix\Spiral Matrix.csproj", "{3969DC6D-A92B-4FB1-822F-709BB20CC582}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{1120E787-7F95-47AE-BA51-C260E74E8CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1120E787-7F95-47AE-BA51-C260E74E8CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1120E787-7F95-47AE-BA51-C260E74E8CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3969DC6D-A92B-4FB1-822F-709BB20CC582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3969DC6D-A92B-4FB1-822F-709BB20CC582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3969DC6D-A92B-4FB1-822F-709BB20CC582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3969DC6D-A92B-4FB1-822F-709BB20CC582}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
