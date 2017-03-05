@@ -3,6 +3,8 @@
 
 // here is an illustration http://www.crazyforcode.com/print-square-matrix-spiral-form/
 
+//here is this solution https://youtu.be/xDsUCkwkVfo
+
 
 namespace Spiral_Matrix
 {
@@ -11,19 +13,83 @@ namespace Spiral_Matrix
     {
         static void Main()
         {
-            int sideLength = int.Parse(Console.ReadLine());
-            int value = 1;
+            int n = int.Parse(Console.ReadLine());
 
-            for (int i = 1; i <= sideLength; i++)
+            int[,] matrix = new int[n, n];
+            int row = 0;
+            int col = 0;
+
+            string direction = "right";
+            int maxRotations = n * n;
+
+            for (int i = 1; i <= maxRotations; i++)
             {
-                for (int j = 0; j < sideLength; j++)
+
+                matrix[row, col] = i;
+
+                if (direction == "right")
                 {
-                    Console.Write("{0} ", value);
-                    value++;
+                    col++;
+                }
+
+                if (direction == "down")
+                {
+                    row++;
+                }
+
+                if (direction == "left")
+                {
+                    col--;
+                }
+
+                if (direction == "up")
+                {
+                    row--;
+                }
+
+
+                if (direction == "right" && (col > n - 1 || matrix[row, col] != 0))
+                {
+                    direction = "down";
+                    col--;
+                    row++;
+                }
+
+                if (direction == "down" && (row > n - 1 || matrix[row, col] != 0))
+                {
+                    direction = "left";
+                    row--;
+                    col--;
+                }
+
+                if (direction == "left" && (col < 0 || matrix[row, col] != 0))
+                {
+                    direction = "up";
+                    col++;
+                    row--;
+                }
+
+                if (direction == "up" && (row < 0 || matrix[row, col] != 0))
+                {
+                    direction = "right";
+                    row++;
+                    col++;
+                }
+
+               
+
+            }
+
+            //type the matrix
+            for (int r = 0; r < n; r++)
+            {
+                for (int c = 0; c < n; c++)
+                {
+                    Console.Write("{0} ", matrix[r, c]);
+
                 }
 
                 Console.WriteLine();
-
             }
         }
     }
